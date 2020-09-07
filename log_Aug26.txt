@@ -1,0 +1,479 @@
+Last login: Wed Aug 26 08:48:22 on ttys002
+-bash: alias: python: not found
+-bash: alias: =: not found
+-bash: alias: python3: not found
+
+The default interactive shell is now zsh.
+To update your account to use zsh, please run `chsh -s /bin/zsh`.
+For more details, please visit https://support.apple.com/kb/HT208050.
+(base) Sanas-MacBook-Pro:~ sana$ cd Downloads
+(base) Sanas-MacBook-Pro:Downloads sana$ cd adaptation/
+(base) Sanas-MacBook-Pro:adaptation sana$ tensorboard --logdir ./runs
+/Users/sana/anaconda3/lib/python3.7/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:541: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint8 = np.dtype([("qint8", np.int8, 1)])
+/Users/sana/anaconda3/lib/python3.7/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:542: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint8 = np.dtype([("quint8", np.uint8, 1)])
+/Users/sana/anaconda3/lib/python3.7/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:543: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint16 = np.dtype([("qint16", np.int16, 1)])
+/Users/sana/anaconda3/lib/python3.7/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:544: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint16 = np.dtype([("quint16", np.uint16, 1)])
+/Users/sana/anaconda3/lib/python3.7/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:545: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint32 = np.dtype([("qint32", np.int32, 1)])
+/Users/sana/anaconda3/lib/python3.7/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:550: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  np_resource = np.dtype([("resource", np.ubyte, 1)])
+/Users/sana/anaconda3/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:516: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint8 = np.dtype([("qint8", np.int8, 1)])
+/Users/sana/anaconda3/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:517: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint8 = np.dtype([("quint8", np.uint8, 1)])
+/Users/sana/anaconda3/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:518: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint16 = np.dtype([("qint16", np.int16, 1)])
+/Users/sana/anaconda3/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:519: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint16 = np.dtype([("quint16", np.uint16, 1)])
+/Users/sana/anaconda3/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:520: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint32 = np.dtype([("qint32", np.int32, 1)])
+/Users/sana/anaconda3/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:525: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  np_resource = np.dtype([("resource", np.ubyte, 1)])
+TensorBoard 1.14.0 at http://Sanas-MacBook-Pro.local:6006/ (Press CTRL+C to quit)
+I0826 11:06:53.197605 123145357520896 _internal.py:113] ::ffff:127.0.0.1 - - [26/Aug/2020 11:06:53] "GET / HTTP/1.1" 200 -
+I0826 11:06:53.823994 123145362776064 _internal.py:113] ::ffff:127.0.0.1 - - [26/Aug/2020 11:06:53] "GET /font-roboto/oMMgfZMQthOryQo9n22dcuvvDin1pK8aKteLpeZ5c0A.woff2 HTTP/1.1" 200 -
+I0826 11:06:55.008070 123145362776064 _internal.py:113] ::ffff:127.0.0.1 - - [26/Aug/2020 11:06:55] "GET /data/environment HTTP/1.1" 200 -
+I0826 11:06:55.010437 123145357520896 _internal.py:113] ::ffff:127.0.0.1 - - [26/Aug/2020 11:06:55] "GET /data/plugins_listing HTTP/1.1" 200 -
+I0826 11:06:55.013364 123145378541568 _internal.py:113] ::ffff:127.0.0.1 - - [26/Aug/2020 11:06:55] "GET /data/runs HTTP/1.1" 200 -
+I0826 11:06:55.015369 123145383796736 _internal.py:113] ::ffff:127.0.0.1 - - [26/Aug/2020 11:06:55] "GET /data/experiments HTTP/1.1" 200 -
+I0826 11:06:55.262371 123145383796736 _internal.py:113] ::ffff:127.0.0.1 - - [26/Aug/2020 11:06:55] "GET /data/plugin/scalars/tags HTTP/1.1" 200 -
+I0826 11:06:55.275270 123145383796736 _internal.py:113] ::ffff:127.0.0.1 - - [26/Aug/2020 11:06:55] "GET /font-roboto/RxZJdnzeo3R5zSexge8UUZBw1xU1rKptJj_0jans920.woff2 HTTP/1.1" 200 -
+I0826 11:06:55.295962 123145383796736 _internal.py:113] ::ffff:127.0.0.1 - - [26/Aug/2020 11:06:55] "GET /data/plugins_listing HTTP/1.1" 200 -
+I0826 11:06:55.301672 123145383796736 _internal.py:113] ::ffff:127.0.0.1 - - [26/Aug/2020 11:06:55] "GET /font-roboto/d-6IYplOFocCacKzxwXSOJBw1xU1rKptJj_0jans920.woff2 HTTP/1.1" 200 -
+I0826 11:06:55.330292 123145383796736 _internal.py:113] ::ffff:127.0.0.1 - - [26/Aug/2020 11:06:55] "GET /data/environment HTTP/1.1" 200 -
+I0826 11:06:55.336677 123145383796736 _internal.py:113] ::ffff:127.0.0.1 - - [26/Aug/2020 11:06:55] "GET /data/runs HTTP/1.1" 200 -
+I0826 11:06:55.356914 123145383796736 _internal.py:113] ::ffff:127.0.0.1 - - [26/Aug/2020 11:06:55] "GET /data/experiments HTTP/1.1" 200 -
+I0826 11:06:55.577543 123145383796736 _internal.py:113] ::ffff:127.0.0.1 - - [26/Aug/2020 11:06:55] "GET /data/plugin/scalars/scalars?tag=loss_train&run=Aug26_10-57-43_Sanas-MacBook-Pro.local&experiment= HTTP/1.1" 200 -
+I0826 11:06:55.672614 123145383796736 _internal.py:113] ::ffff:127.0.0.1 - - [26/Aug/2020 11:06:55] "GET /data/plugin/scalars/tags HTTP/1.1" 200 -
+I0826 11:06:55.724517 123145383796736 _internal.py:113] ::ffff:127.0.0.1 - - [26/Aug/2020 11:06:55] "GET /data/plugin/scalars/scalars?tag=loss_train&run=Aug26_10-57-43_Sanas-MacBook-Pro.local&experiment= HTTP/1.1" 200 -
+I0826 11:07:25.305164 123145357520896 _internal.py:113] ::ffff:127.0.0.1 - - [26/Aug/2020 11:07:25] "GET /data/runs HTTP/1.1" 200 -
+I0826 11:07:25.306544 123145362776064 _internal.py:113] ::ffff:127.0.0.1 - - [26/Aug/2020 11:07:25] "GET /data/experiments HTTP/1.1" 200 -
+I0826 11:07:25.308765 123145378541568 _internal.py:113] ::ffff:127.0.0.1 - - [26/Aug/2020 11:07:25] "GET /data/environment HTTP/1.1" 200 -
+I0826 11:07:25.310330 123145383796736 _internal.py:113] ::ffff:127.0.0.1 - - [26/Aug/2020 11:07:25] "GET /data/plugins_listing HTTP/1.1" 200 -
+I0826 11:07:25.326698 123145378541568 _internal.py:113] ::ffff:127.0.0.1 - - [26/Aug/2020 11:07:25] "GET /data/plugin/scalars/tags HTTP/1.1" 200 -
+I0826 11:07:25.369771 123145378541568 _internal.py:113] ::ffff:127.0.0.1 - - [26/Aug/2020 11:07:25] "GET /data/plugin/scalars/scalars?tag=loss_train&run=Aug26_10-57-43_Sanas-MacBook-Pro.local&experiment= HTTP/1.1" 200 -
+I0826 11:07:55.308495 123145357520896 _internal.py:113] ::ffff:127.0.0.1 - - [26/Aug/2020 11:07:55] "GET /data/experiments HTTP/1.1" 200 -
+I0826 11:07:55.309959 123145383796736 _internal.py:113] ::ffff:127.0.0.1 - - [26/Aug/2020 11:07:55] "GET /data/environment HTTP/1.1" 200 -
+I0826 11:07:55.311813 123145362776064 _internal.py:113] ::ffff:127.0.0.1 - - [26/Aug/2020 11:07:55] "GET /data/runs HTTP/1.1" 200 -
+I0826 11:07:55.316561 123145378541568 _internal.py:113] ::ffff:127.0.0.1 - - [26/Aug/2020 11:07:55] "GET /data/plugins_listing HTTP/1.1" 200 -
+I0826 11:07:55.336398 123145378541568 _internal.py:113] ::ffff:127.0.0.1 - - [26/Aug/2020 11:07:55] "GET /data/plugin/scalars/tags HTTP/1.1" 200 -
+I0826 11:07:55.380998 123145378541568 _internal.py:113] ::ffff:127.0.0.1 - - [26/Aug/2020 11:07:55] "GET /data/plugin/scalars/scalars?tag=loss_train&run=Aug26_10-57-43_Sanas-MacBook-Pro.local&experiment= HTTP/1.1" 200 -
+I0826 11:08:25.497448 123145362776064 _internal.py:113] ::ffff:127.0.0.1 - - [26/Aug/2020 11:08:25] "GET /data/environment HTTP/1.1" 200 -
+I0826 11:08:25.500046 123145357520896 _internal.py:113] ::ffff:127.0.0.1 - - [26/Aug/2020 11:08:25] "GET /data/experiments HTTP/1.1" 200 -
+I0826 11:08:25.500457 123145383796736 _internal.py:113] ::ffff:127.0.0.1 - - [26/Aug/2020 11:08:25] "GET /data/runs HTTP/1.1" 200 -
+I0826 11:08:25.503072 123145378541568 _internal.py:113] ::ffff:127.0.0.1 - - [26/Aug/2020 11:08:25] "GET /data/plugins_listing HTTP/1.1" 200 -
+I0826 11:08:25.517222 123145378541568 _internal.py:113] ::ffff:127.0.0.1 - - [26/Aug/2020 11:08:25] "GET /data/plugin/scalars/tags HTTP/1.1" 200 -
+I0826 11:08:25.552024 123145378541568 _internal.py:113] ::ffff:127.0.0.1 - - [26/Aug/2020 11:08:25] "GET /data/plugin/scalars/scalars?tag=loss_train&run=Aug26_10-57-43_Sanas-MacBook-Pro.local&experiment= HTTP/1.1" 200 -
+I0826 11:08:56.583011 123145383796736 _internal.py:113] ::ffff:127.0.0.1 - - [26/Aug/2020 11:08:56] "GET /data/environment HTTP/1.1" 200 -
+I0826 11:08:56.583415 123145362776064 _internal.py:113] ::ffff:127.0.0.1 - - [26/Aug/2020 11:08:56] "GET /data/experiments HTTP/1.1" 200 -
+I0826 11:08:56.584157 123145357520896 _internal.py:113] ::ffff:127.0.0.1 - - [26/Aug/2020 11:08:56] "GET /data/runs HTTP/1.1" 200 -
+I0826 11:08:56.587333 123145378541568 _internal.py:113] ::ffff:127.0.0.1 - - [26/Aug/2020 11:08:56] "GET /data/plugins_listing HTTP/1.1" 200 -
+I0826 11:08:56.598747 123145378541568 _internal.py:113] ::ffff:127.0.0.1 - - [26/Aug/2020 11:08:56] "GET /data/plugin/scalars/tags HTTP/1.1" 200 -
+I0826 11:08:56.627454 123145378541568 _internal.py:113] ::ffff:127.0.0.1 - - [26/Aug/2020 11:08:56] "GET /data/plugin/scalars/scalars?tag=loss_train&run=Aug26_10-57-43_Sanas-MacBook-Pro.local&experiment= HTTP/1.1" 200 -
+I0826 11:09:41.767925 123145357520896 _internal.py:113] ::ffff:127.0.0.1 - - [26/Aug/2020 11:09:41] "GET /data/environment HTTP/1.1" 200 -
+I0826 11:09:41.769193 123145362776064 _internal.py:113] ::ffff:127.0.0.1 - - [26/Aug/2020 11:09:41] "GET /data/experiments HTTP/1.1" 200 -
+I0826 11:09:41.769738 123145383796736 _internal.py:113] ::ffff:127.0.0.1 - - [26/Aug/2020 11:09:41] "GET /data/runs HTTP/1.1" 200 -
+I0826 11:09:41.771983 123145378541568 _internal.py:113] ::ffff:127.0.0.1 - - [26/Aug/2020 11:09:41] "GET /data/plugins_listing HTTP/1.1" 200 -
+I0826 11:09:41.784846 123145378541568 _internal.py:113] ::ffff:127.0.0.1 - - [26/Aug/2020 11:09:41] "GET /data/plugin/scalars/tags HTTP/1.1" 200 -
+I0826 11:09:41.810781 123145378541568 _internal.py:113] ::ffff:127.0.0.1 - - [26/Aug/2020 11:09:41] "GET /data/plugin/scalars/scalars?tag=loss_train&run=Aug26_10-57-43_Sanas-MacBook-Pro.local&experiment= HTTP/1.1" 200 -
+I0826 11:10:24.177486 123145383796736 _internal.py:113] ::ffff:127.0.0.1 - - [26/Aug/2020 11:10:24] "GET /data/environment HTTP/1.1" 200 -
+I0826 11:10:24.177881 123145357520896 _internal.py:113] ::ffff:127.0.0.1 - - [26/Aug/2020 11:10:24] "GET /data/runs HTTP/1.1" 200 -
+I0826 11:10:24.178713 123145362776064 _internal.py:113] ::ffff:127.0.0.1 - - [26/Aug/2020 11:10:24] "GET /data/experiments HTTP/1.1" 200 -
+I0826 11:10:24.181204 123145378541568 _internal.py:113] ::ffff:127.0.0.1 - - [26/Aug/2020 11:10:24] "GET /data/plugins_listing HTTP/1.1" 200 -
+I0826 11:10:24.192068 123145378541568 _internal.py:113] ::ffff:127.0.0.1 - - [26/Aug/2020 11:10:24] "GET /data/plugin/scalars/tags HTTP/1.1" 200 -
+I0826 11:10:24.218639 123145378541568 _internal.py:113] ::ffff:127.0.0.1 - - [26/Aug/2020 11:10:24] "GET /data/plugin/scalars/scalars?tag=loss_train&run=Aug26_10-57-43_Sanas-MacBook-Pro.local&experiment= HTTP/1.1" 200 -
+I0826 11:10:54.503375 123145383796736 _internal.py:113] ::ffff:127.0.0.1 - - [26/Aug/2020 11:10:54] "GET /data/environment HTTP/1.1" 200 -
+I0826 11:10:54.503756 123145362776064 _internal.py:113] ::ffff:127.0.0.1 - - [26/Aug/2020 11:10:54] "GET /data/runs HTTP/1.1" 200 -
+I0826 11:10:54.504401 123145378541568 _internal.py:113] ::ffff:127.0.0.1 - - [26/Aug/2020 11:10:54] "GET /data/plugins_listing HTTP/1.1" 200 -
+I0826 11:10:54.506218 123145357520896 _internal.py:113] ::ffff:127.0.0.1 - - [26/Aug/2020 11:10:54] "GET /data/experiments HTTP/1.1" 200 -
+I0826 11:10:54.518106 123145357520896 _internal.py:113] ::ffff:127.0.0.1 - - [26/Aug/2020 11:10:54] "GET /data/plugin/scalars/tags HTTP/1.1" 200 -
+I0826 11:10:54.546148 123145357520896 _internal.py:113] ::ffff:127.0.0.1 - - [26/Aug/2020 11:10:54] "GET /data/plugin/scalars/scalars?tag=loss_train&run=Aug26_10-57-43_Sanas-MacBook-Pro.local&experiment= HTTP/1.1" 200 -
+I0826 11:11:25.502625 123145362776064 _internal.py:113] ::ffff:127.0.0.1 - - [26/Aug/2020 11:11:25] "GET /data/runs HTTP/1.1" 200 -
+I0826 11:11:25.503108 123145383796736 _internal.py:113] ::ffff:127.0.0.1 - - [26/Aug/2020 11:11:25] "GET /data/experiments HTTP/1.1" 200 -
+I0826 11:11:25.503398 123145378541568 _internal.py:113] ::ffff:127.0.0.1 - - [26/Aug/2020 11:11:25] "GET /data/environment HTTP/1.1" 200 -
+I0826 11:11:25.505659 123145357520896 _internal.py:113] ::ffff:127.0.0.1 - - [26/Aug/2020 11:11:25] "GET /data/plugins_listing HTTP/1.1" 200 -
+I0826 11:11:25.516718 123145357520896 _internal.py:113] ::ffff:127.0.0.1 - - [26/Aug/2020 11:11:25] "GET /data/plugin/scalars/tags HTTP/1.1" 200 -
+I0826 11:11:25.542484 123145357520896 _internal.py:113] ::ffff:127.0.0.1 - - [26/Aug/2020 11:11:25] "GET /data/plugin/scalars/scalars?tag=loss_train&run=Aug26_10-57-43_Sanas-MacBook-Pro.local&experiment= HTTP/1.1" 200 -
+W0826 11:11:54.566865 123145352265728 plugin_event_multiplexer.py:244] Deleting accumulator 'Aug26_10-57-43_Sanas-MacBook-Pro.local'
+I0826 11:11:56.505307 123145378541568 _internal.py:113] ::ffff:127.0.0.1 - - [26/Aug/2020 11:11:56] "GET /data/runs HTTP/1.1" 200 -
+I0826 11:11:56.506272 123145362776064 _internal.py:113] ::ffff:127.0.0.1 - - [26/Aug/2020 11:11:56] "GET /data/experiments HTTP/1.1" 200 -
+I0826 11:11:56.506953 123145383796736 _internal.py:113] ::ffff:127.0.0.1 - - [26/Aug/2020 11:11:56] "GET /data/environment HTTP/1.1" 200 -
+I0826 11:11:56.511116 123145357520896 _internal.py:113] ::ffff:127.0.0.1 - - [26/Aug/2020 11:11:56] "GET /data/plugins_listing HTTP/1.1" 200 -
+I0826 11:11:56.538007 123145357520896 _internal.py:113] ::ffff:127.0.0.1 - - [26/Aug/2020 11:11:56] "GET /data/plugin/scalars/tags HTTP/1.1" 200 -
+^Z
+[1]+  Stopped                 tensorboard --logdir ./runs
+(base) Sanas-MacBook-Pro:adaptation sana$ python3 adapt.py --name image --params utils/adapt_image.yaml
+1.2.0
+/Users/sana/anaconda3/lib/python3.7/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:541: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint8 = np.dtype([("qint8", np.int8, 1)])
+/Users/sana/anaconda3/lib/python3.7/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:542: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint8 = np.dtype([("quint8", np.uint8, 1)])
+/Users/sana/anaconda3/lib/python3.7/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:543: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint16 = np.dtype([("qint16", np.int16, 1)])
+/Users/sana/anaconda3/lib/python3.7/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:544: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint16 = np.dtype([("quint16", np.uint16, 1)])
+/Users/sana/anaconda3/lib/python3.7/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:545: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint32 = np.dtype([("qint32", np.int32, 1)])
+/Users/sana/anaconda3/lib/python3.7/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:550: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  np_resource = np.dtype([("resource", np.ubyte, 1)])
+WARNING:root:This caffe2 python run does not have GPU support. Will run in CPU only mode.
+adapt.py:208: YAMLLoadWarning: calling yaml.load() without Loader=... is deprecated, as the default Loader is unsafe. Please read https://msg.pyyaml.org/load for full details.
+  params_loaded = yaml.load(f)
+WARNING:utils.utils:Logging things. current path: /Users/sana/Downloads/adaptation/saved_models/model_image_adapt_Aug.26_11.12.53
+2020-08-26 11:12:55 - WARNING  - Logging things. current path: /Users/sana/Downloads/adaptation/saved_models/model_image_adapt_Aug.26_11.12.53
+0.001 | data_type | repo_path | save_name | recreate_dat | batch_size | test_batch_s | lr | momentum | decay | total_rounds | lamb | alpha | temperature | optimizer | multi_gpu | scratch | only_eval | freeze_base | ewc | kd | number_of_to | adaptation_e | log | tb | random | current_time | tb_name |
+|---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|
+| image | /Users/sana/Downloads/adaptation | image_debug | False | 32 | 100 | 0.001 | 0.9 | 0.0005 | 8 | 5000 | 0.95 | 6 | SGD | False | False | False | True | False | False | 100 | 50 | True | True | False | Aug.26_11.12.53 | image |
+INFO:utils.utils:Selected adapted models ID: range(0, 100)
+2020-08-26 11:12:55 - INFO     - Selected adapted models ID: range(0, 100)
+  0%|                                                   | 0/100 [00:00<?, ?it/s]INFO:utils.utils:time spent on local adaptation: 777.4336569309235
+2020-08-26 11:25:52 - INFO     - time spent on local adaptation: 777.4336569309235
+INFO:utils.utils:testing adapted model on local testset at model_id: 0
+2020-08-26 11:25:52 - INFO     - testing adapted model on local testset at model_id: 0
+___Test None , Average loss: 2.411864332580566,  Accuracy: 1359.0/10000 (13.59%)
+INFO:utils.utils:time spent on testing: 170.95230913162231
+2020-08-26 11:28:43 - INFO     - time spent on testing: 170.95230913162231
+  1%|▍                                      | 1/100 [15:48<26:05:06, 948.55s/it]INFO:utils.utils:time spent on local adaptation: 460.00383400917053
+2020-08-26 11:36:23 - INFO     - time spent on local adaptation: 460.00383400917053
+INFO:utils.utils:testing adapted model on local testset at model_id: 1
+2020-08-26 11:36:23 - INFO     - testing adapted model on local testset at model_id: 1
+___Test None , Average loss: 2.227405224609375,  Accuracy: 1574.0/10000 (15.740000000000002%)
+INFO:utils.utils:time spent on testing: 153.3772280216217
+2020-08-26 11:38:57 - INFO     - time spent on testing: 153.3772280216217
+  2%|▊                                      | 2/100 [26:02<23:05:07, 848.04s/it]INFO:utils.utils:time spent on local adaptation: 2024.044443845749
+2020-08-26 12:12:41 - INFO     - time spent on local adaptation: 2024.044443845749
+INFO:utils.utils:testing adapted model on local testset at model_id: 2
+2020-08-26 12:12:41 - INFO     - testing adapted model on local testset at model_id: 2
+___Test None , Average loss: 2.469248010253906,  Accuracy: 1483.0/10000 (14.829999999999998%)
+INFO:utils.utils:time spent on testing: 181.4499430656433
+2020-08-26 12:15:42 - INFO     - time spent on testing: 181.4499430656433
+  3%|█                                   | 3/100 [1:02:47<33:49:26, 1255.33s/it]INFO:utils.utils:time spent on local adaptation: 381.88959288597107
+2020-08-26 12:22:05 - INFO     - time spent on local adaptation: 381.88959288597107
+INFO:utils.utils:testing adapted model on local testset at model_id: 3
+2020-08-26 12:22:05 - INFO     - testing adapted model on local testset at model_id: 3
+___Test None , Average loss: 2.5205730407714846,  Accuracy: 1528.0/10000 (15.28%)
+INFO:utils.utils:time spent on testing: 169.9866030216217
+2020-08-26 12:24:55 - INFO     - time spent on testing: 169.9866030216217
+  4%|█▍                                  | 4/100 [1:11:59<27:51:01, 1044.39s/it]INFO:utils.utils:time spent on local adaptation: 501.7917540073395
+2020-08-26 12:33:17 - INFO     - time spent on local adaptation: 501.7917540073395
+INFO:utils.utils:testing adapted model on local testset at model_id: 4
+2020-08-26 12:33:17 - INFO     - testing adapted model on local testset at model_id: 4
+___Test None , Average loss: 2.6020330856323244,  Accuracy: 1346.0/10000 (13.459999999999999%)
+INFO:utils.utils:time spent on testing: 150.5634150505066
+2020-08-26 12:35:47 - INFO     - time spent on testing: 150.5634150505066
+  5%|█▊                                   | 5/100 [1:22:52<24:27:37, 926.93s/it]INFO:utils.utils:time spent on local adaptation: 611.2880928516388
+2020-08-26 12:45:59 - INFO     - time spent on local adaptation: 611.2880928516388
+INFO:utils.utils:testing adapted model on local testset at model_id: 5
+2020-08-26 12:45:59 - INFO     - testing adapted model on local testset at model_id: 5
+___Test None , Average loss: 2.937051174926758,  Accuracy: 1704.0/10000 (17.04%)
+INFO:utils.utils:time spent on testing: 155.5810408592224
+2020-08-26 12:48:35 - INFO     - time spent on testing: 155.5810408592224
+  6%|██▏                                  | 6/100 [1:35:39<22:57:06, 879.00s/it]INFO:utils.utils:time spent on local adaptation: 551.7174091339111
+2020-08-26 12:57:47 - INFO     - time spent on local adaptation: 551.7174091339111
+INFO:utils.utils:testing adapted model on local testset at model_id: 6
+2020-08-26 12:57:47 - INFO     - testing adapted model on local testset at model_id: 6
+___Test None , Average loss: 2.5470393920898435,  Accuracy: 1564.0/10000 (15.64%)
+INFO:utils.utils:time spent on testing: 364.90931606292725
+2020-08-26 13:03:52 - INFO     - time spent on testing: 364.90931606292725
+  7%|██▌                                  | 7/100 [1:50:57<23:00:10, 890.43s/it]INFO:utils.utils:time spent on local adaptation: 3495.1610159873962
+2020-08-26 14:02:07 - INFO     - time spent on local adaptation: 3495.1610159873962
+INFO:utils.utils:testing adapted model on local testset at model_id: 7
+2020-08-26 14:02:07 - INFO     - testing adapted model on local testset at model_id: 7
+___Test None , Average loss: 2.3723188140869143,  Accuracy: 1509.0/10000 (15.09%)
+INFO:utils.utils:time spent on testing: 156.2449870109558
+2020-08-26 14:04:43 - INFO     - time spent on testing: 156.2449870109558
+  8%|██▉                                 | 8/100 [2:51:48<43:55:29, 1718.80s/it]INFO:utils.utils:time spent on local adaptation: 9141.420770645142
+2020-08-26 16:37:05 - INFO     - time spent on local adaptation: 9141.420770645142
+INFO:utils.utils:testing adapted model on local testset at model_id: 8
+2020-08-26 16:37:05 - INFO     - testing adapted model on local testset at model_id: 8
+___Test None , Average loss: 2.146410026550293,  Accuracy: 1699.0/10000 (16.99%)
+INFO:utils.utils:time spent on testing: 154.01757907867432
+2020-08-26 16:39:39 - INFO     - time spent on testing: 154.01757907867432
+  9%|███▏                               | 9/100 [5:26:44<100:54:27, 3991.95s/it]INFO:utils.utils:time spent on local adaptation: 895.1496570110321
+2020-08-26 16:54:35 - INFO     - time spent on local adaptation: 895.1496570110321
+INFO:utils.utils:testing adapted model on local testset at model_id: 9
+2020-08-26 16:54:35 - INFO     - testing adapted model on local testset at model_id: 9
+___Test None , Average loss: 2.440322950744629,  Accuracy: 1692.0/10000 (16.919999999999998%)
+INFO:utils.utils:time spent on testing: 168.4952688217163
+2020-08-26 16:57:24 - INFO     - time spent on testing: 168.4952688217163
+ 10%|███▌                               | 10/100 [5:44:28<77:50:28, 3113.65s/it]INFO:utils.utils:time spent on local adaptation: 2030.9071888923645
+2020-08-26 17:31:15 - INFO     - time spent on local adaptation: 2030.9071888923645
+INFO:utils.utils:testing adapted model on local testset at model_id: 10
+2020-08-26 17:31:15 - INFO     - testing adapted model on local testset at model_id: 10
+___Test None , Average loss: 2.3782499633789063,  Accuracy: 1977.0/10000 (19.77%)
+INFO:utils.utils:time spent on testing: 161.18252110481262
+2020-08-26 17:33:56 - INFO     - time spent on testing: 161.18252110481262
+ 11%|███▊                               | 11/100 [6:21:01<70:08:45, 2837.37s/it]INFO:utils.utils:time spent on local adaptation: 297.59325075149536
+2020-08-26 17:38:54 - INFO     - time spent on local adaptation: 297.59325075149536
+INFO:utils.utils:testing adapted model on local testset at model_id: 11
+2020-08-26 17:38:54 - INFO     - testing adapted model on local testset at model_id: 11
+___Test None , Average loss: 2.3566575408935546,  Accuracy: 1496.0/10000 (14.96%)
+INFO:utils.utils:time spent on testing: 188.78700804710388
+2020-08-26 17:42:03 - INFO     - time spent on testing: 188.78700804710388
+ 12%|████▏                              | 12/100 [6:29:08<52:07:15, 2132.22s/it]INFO:utils.utils:time spent on local adaptation: 1072.7637128829956
+2020-08-26 17:59:57 - INFO     - time spent on local adaptation: 1072.7637128829956
+INFO:utils.utils:testing adapted model on local testset at model_id: 12
+2020-08-26 17:59:57 - INFO     - testing adapted model on local testset at model_id: 12
+___Test None , Average loss: 2.1565220321655274,  Accuracy: 1641.0/10000 (16.41%)
+INFO:utils.utils:time spent on testing: 3826.29491686821
+2020-08-26 19:03:43 - INFO     - time spent on testing: 3826.29491686821
+ 13%|████▌                              | 13/100 [7:50:48<71:35:35, 2962.48s/it]INFO:utils.utils:time spent on local adaptation: 8340.535585165024
+2020-08-26 21:22:44 - INFO     - time spent on local adaptation: 8340.535585165024
+INFO:utils.utils:testing adapted model on local testset at model_id: 13
+2020-08-26 21:22:44 - INFO     - testing adapted model on local testset at model_id: 13
+___Test None , Average loss: 2.4788792526245116,  Accuracy: 1485.0/10000 (14.85%)
+INFO:utils.utils:time spent on testing: 151.7419090270996
+2020-08-26 21:25:15 - INFO     - time spent on testing: 151.7419090270996
+ 14%|████▌                            | 14/100 [10:12:20<110:24:07, 4621.48s/it]INFO:utils.utils:time spent on local adaptation: 21748.971591949463
+2020-08-27 03:27:45 - INFO     - time spent on local adaptation: 21748.971591949463
+INFO:utils.utils:testing adapted model on local testset at model_id: 14
+2020-08-27 03:27:45 - INFO     - testing adapted model on local testset at model_id: 14
+___Test None , Average loss: 2.1933422073364257,  Accuracy: 1606.0/10000 (16.06%)
+INFO:utils.utils:time spent on testing: 18480.773153066635
+2020-08-27 08:35:45 - INFO     - time spent on testing: 18480.773153066635
+ 15%|████▊                           | 15/100 [21:22:50<361:20:46, 15304.07s/it]INFO:utils.utils:time spent on local adaptation: 1397.8507430553436
+2020-08-27 08:59:04 - INFO     - time spent on local adaptation: 1397.8507430553436
+INFO:utils.utils:testing adapted model on local testset at model_id: 15
+2020-08-27 08:59:04 - INFO     - testing adapted model on local testset at model_id: 15
+___Test None , Average loss: 2.752771011352539,  Accuracy: 1433.0/10000 (14.330000000000002%)
+INFO:utils.utils:time spent on testing: 156.99220991134644
+2020-08-27 09:01:41 - INFO     - time spent on testing: 156.99220991134644
+ 16%|█████                           | 16/100 [21:48:46<260:51:09, 11179.40s/it]INFO:utils.utils:time spent on local adaptation: 1184.7842481136322
+2020-08-27 09:21:26 - INFO     - time spent on local adaptation: 1184.7842481136322
+INFO:utils.utils:testing adapted model on local testset at model_id: 16
+2020-08-27 09:21:26 - INFO     - testing adapted model on local testset at model_id: 16
+___Test None , Average loss: 2.539478868103027,  Accuracy: 1480.0/10000 (14.799999999999999%)
+INFO:utils.utils:time spent on testing: 154.18598675727844
+2020-08-27 09:24:00 - INFO     - time spent on testing: 154.18598675727844
+ 17%|█████▌                           | 17/100 [22:11:05<189:41:12, 8227.38s/it]INFO:utils.utils:time spent on local adaptation: 3984.205172777176
+2020-08-27 10:30:24 - INFO     - time spent on local adaptation: 3984.205172777176
+INFO:utils.utils:testing adapted model on local testset at model_id: 17
+2020-08-27 10:30:24 - INFO     - testing adapted model on local testset at model_id: 17
+___Test None , Average loss: 2.295192904663086,  Accuracy: 902.0/10000 (9.02%)
+INFO:utils.utils:time spent on testing: 150.3599030971527
+2020-08-27 10:32:55 - INFO     - time spent on testing: 150.3599030971527
+ 18%|█████▉                           | 18/100 [23:20:00<159:26:08, 6999.62s/it]INFO:utils.utils:time spent on local adaptation: 624.525426864624
+2020-08-27 10:43:20 - INFO     - time spent on local adaptation: 624.525426864624
+INFO:utils.utils:testing adapted model on local testset at model_id: 18
+2020-08-27 10:43:20 - INFO     - testing adapted model on local testset at model_id: 18
+___Test None , Average loss: 2.4619426696777342,  Accuracy: 1583.0/10000 (15.83%)
+INFO:utils.utils:time spent on testing: 199.74323415756226
+2020-08-27 10:46:39 - INFO     - time spent on testing: 199.74323415756226
+ 19%|██████▎                          | 19/100 [23:33:44<115:48:36, 5147.11s/it]INFO:utils.utils:time spent on local adaptation: 801.8798429965973
+2020-08-27 11:00:02 - INFO     - time spent on local adaptation: 801.8798429965973
+INFO:utils.utils:testing adapted model on local testset at model_id: 19
+2020-08-27 11:00:02 - INFO     - testing adapted model on local testset at model_id: 19
+___Test None , Average loss: 2.395894140625,  Accuracy: 1080.0/10000 (10.8%)
+INFO:utils.utils:time spent on testing: 154.8257999420166
+2020-08-27 11:02:36 - INFO     - time spent on testing: 154.8257999420166
+ 20%|██████▊                           | 20/100 [23:49:41<86:26:47, 3890.10s/it]INFO:utils.utils:time spent on local adaptation: 523.0339050292969
+2020-08-27 11:11:20 - INFO     - time spent on local adaptation: 523.0339050292969
+INFO:utils.utils:testing adapted model on local testset at model_id: 20
+2020-08-27 11:11:20 - INFO     - testing adapted model on local testset at model_id: 20
+___Test None , Average loss: 2.394184371948242,  Accuracy: 1407.0/10000 (14.069999999999999%)
+INFO:utils.utils:time spent on testing: 175.2756381034851
+2020-08-27 11:14:15 - INFO     - time spent on testing: 175.2756381034851
+ 21%|███████▏                          | 21/100 [24:01:20<64:21:14, 2932.59s/it]INFO:utils.utils:time spent on local adaptation: 403.12224102020264
+2020-08-27 11:20:58 - INFO     - time spent on local adaptation: 403.12224102020264
+INFO:utils.utils:testing adapted model on local testset at model_id: 21
+2020-08-27 11:20:58 - INFO     - testing adapted model on local testset at model_id: 21
+___Test None , Average loss: 2.614154544067383,  Accuracy: 929.0/10000 (9.29%)
+INFO:utils.utils:time spent on testing: 181.70328879356384
+2020-08-27 11:24:00 - INFO     - time spent on testing: 181.70328879356384
+ 22%|███████▍                          | 22/100 [24:11:05<48:16:53, 2228.37s/it]INFO:utils.utils:time spent on local adaptation: 635.0709910392761
+2020-08-27 11:34:35 - INFO     - time spent on local adaptation: 635.0709910392761
+INFO:utils.utils:testing adapted model on local testset at model_id: 22
+2020-08-27 11:34:35 - INFO     - testing adapted model on local testset at model_id: 22
+___Test None , Average loss: 2.030306147766113,  Accuracy: 1612.0/10000 (16.12%)
+INFO:utils.utils:time spent on testing: 155.27997994422913
+2020-08-27 11:37:11 - INFO     - time spent on testing: 155.27997994422913
+ 23%|███████▊                          | 23/100 [24:24:16<38:26:13, 1797.06s/it]INFO:utils.utils:time spent on local adaptation: 3470.833659172058
+2020-08-27 12:35:02 - INFO     - time spent on local adaptation: 3470.833659172058
+INFO:utils.utils:testing adapted model on local testset at model_id: 23
+2020-08-27 12:35:02 - INFO     - testing adapted model on local testset at model_id: 23
+___Test None , Average loss: 2.5475192428588866,  Accuracy: 1477.0/10000 (14.77%)
+INFO:utils.utils:time spent on testing: 195.6501169204712
+2020-08-27 12:38:18 - INFO     - time spent on testing: 195.6501169204712
+ 24%|████████▏                         | 24/100 [25:25:23<49:46:54, 2358.09s/it]INFO:utils.utils:time spent on local adaptation: 383.191299200058
+2020-08-27 12:44:41 - INFO     - time spent on local adaptation: 383.191299200058
+INFO:utils.utils:testing adapted model on local testset at model_id: 24
+2020-08-27 12:44:41 - INFO     - testing adapted model on local testset at model_id: 24
+___Test None , Average loss: 2.8186007843017578,  Accuracy: 1387.0/10000 (13.87%)
+INFO:utils.utils:time spent on testing: 151.04089212417603
+2020-08-27 12:47:13 - INFO     - time spent on testing: 151.04089212417603
+ 25%|████████▌                         | 25/100 [25:34:17<37:43:48, 1811.05s/it]INFO:utils.utils:time spent on local adaptation: 2982.384571790695
+2020-08-27 13:36:56 - INFO     - time spent on local adaptation: 2982.384571790695
+INFO:utils.utils:testing adapted model on local testset at model_id: 25
+2020-08-27 13:36:56 - INFO     - testing adapted model on local testset at model_id: 25
+___Test None , Average loss: 2.400946876525879,  Accuracy: 1608.0/10000 (16.08%)
+INFO:utils.utils:time spent on testing: 187.6678740978241
+2020-08-27 13:40:03 - INFO     - time spent on testing: 187.6678740978241
+ 26%|████████▊                         | 26/100 [26:27:08<45:36:41, 2218.94s/it]INFO:utils.utils:time spent on local adaptation: 349.1823070049286
+2020-08-27 13:45:53 - INFO     - time spent on local adaptation: 349.1823070049286
+INFO:utils.utils:testing adapted model on local testset at model_id: 26
+2020-08-27 13:45:53 - INFO     - testing adapted model on local testset at model_id: 26
+___Test None , Average loss: 2.23060633392334,  Accuracy: 1612.0/10000 (16.12%)
+INFO:utils.utils:time spent on testing: 153.27222108840942
+2020-08-27 13:48:26 - INFO     - time spent on testing: 153.27222108840942
+ 27%|█████████▏                        | 27/100 [26:35:31<34:33:18, 1704.10s/it]INFO:utils.utils:time spent on local adaptation: 949.977532863617
+2020-08-27 14:04:16 - INFO     - time spent on local adaptation: 949.977532863617
+INFO:utils.utils:testing adapted model on local testset at model_id: 27
+2020-08-27 14:04:16 - INFO     - testing adapted model on local testset at model_id: 27
+___Test None , Average loss: 2.805848861694336,  Accuracy: 1678.0/10000 (16.78%)
+INFO:utils.utils:time spent on testing: 195.51097083091736
+2020-08-27 14:07:32 - INFO     - time spent on testing: 195.51097083091736
+ 28%|█████████▌                        | 28/100 [26:54:37<30:43:56, 1536.62s/it]INFO:utils.utils:time spent on local adaptation: 790.9992733001709
+2020-08-27 14:20:43 - INFO     - time spent on local adaptation: 790.9992733001709
+INFO:utils.utils:testing adapted model on local testset at model_id: 28
+2020-08-27 14:20:43 - INFO     - testing adapted model on local testset at model_id: 28
+___Test None , Average loss: 2.281494248962402,  Accuracy: 1139.0/10000 (11.39%)
+INFO:utils.utils:time spent on testing: 182.52374386787415
+2020-08-27 14:23:46 - INFO     - time spent on testing: 182.52374386787415
+ 29%|█████████▊                        | 29/100 [27:10:51<26:58:38, 1367.87s/it]INFO:utils.utils:time spent on local adaptation: 624.0472459793091
+2020-08-27 14:34:11 - INFO     - time spent on local adaptation: 624.0472459793091
+INFO:utils.utils:testing adapted model on local testset at model_id: 29
+2020-08-27 14:34:11 - INFO     - testing adapted model on local testset at model_id: 29
+___Test None , Average loss: 2.5918778472900392,  Accuracy: 1349.0/10000 (13.489999999999998%)
+INFO:utils.utils:time spent on testing: 161.1612708568573
+2020-08-27 14:36:52 - INFO     - time spent on testing: 161.1612708568573
+ 30%|██████████▏                       | 30/100 [27:23:57<23:12:06, 1193.23s/it]INFO:utils.utils:time spent on local adaptation: 859.3307180404663
+2020-08-27 14:51:11 - INFO     - time spent on local adaptation: 859.3307180404663
+INFO:utils.utils:testing adapted model on local testset at model_id: 30
+2020-08-27 14:51:11 - INFO     - testing adapted model on local testset at model_id: 30
+___Test None , Average loss: 2.688983450317383,  Accuracy: 1729.0/10000 (17.29%)
+INFO:utils.utils:time spent on testing: 150.23291015625
+2020-08-27 14:53:42 - INFO     - time spent on testing: 150.23291015625
+ 31%|██████████▌                       | 31/100 [27:40:47<21:48:58, 1138.24s/it]INFO:utils.utils:time spent on local adaptation: 10326.710194826126
+2020-08-27 17:45:49 - INFO     - time spent on local adaptation: 10326.710194826126
+INFO:utils.utils:testing adapted model on local testset at model_id: 31
+2020-08-27 17:45:49 - INFO     - testing adapted model on local testset at model_id: 31
+___Test None , Average loss: 2.6411485748291015,  Accuracy: 1277.0/10000 (12.770000000000001%)
+INFO:utils.utils:time spent on testing: 2774.547420024872
+2020-08-27 18:32:03 - INFO     - time spent on testing: 2774.547420024872
+ 32%|██████████▉                       | 32/100 [31:19:08<89:17:34, 4727.28s/it]INFO:utils.utils:time spent on local adaptation: 4808.5620930194855
+2020-08-27 19:52:12 - INFO     - time spent on local adaptation: 4808.5620930194855
+INFO:utils.utils:testing adapted model on local testset at model_id: 32
+2020-08-27 19:52:12 - INFO     - testing adapted model on local testset at model_id: 32
+___Test None , Average loss: 2.579517251586914,  Accuracy: 1730.0/10000 (17.299999999999997%)
+INFO:utils.utils:time spent on testing: 153.60449695587158
+2020-08-27 19:54:46 - INFO     - time spent on testing: 153.60449695587158
+ 33%|███████████▏                      | 33/100 [32:41:51<89:17:40, 4797.91s/it]INFO:utils.utils:time spent on local adaptation: 44594.11837911606
+2020-08-28 08:18:00 - INFO     - time spent on local adaptation: 44594.11837911606
+INFO:utils.utils:testing adapted model on local testset at model_id: 33
+2020-08-28 08:18:00 - INFO     - testing adapted model on local testset at model_id: 33
+___Test None , Average loss: 2.368020700073242,  Accuracy: 1249.0/10000 (12.49%)
+INFO:utils.utils:time spent on testing: 158.90494585037231
+2020-08-28 08:20:39 - INFO     - time spent on testing: 158.90494585037231
+ 34%|██████████▉                     | 34/100 [45:07:44<307:42:59, 16784.53s/it]INFO:utils.utils:time spent on local adaptation: 754.6145851612091
+2020-08-28 08:33:15 - INFO     - time spent on local adaptation: 754.6145851612091
+INFO:utils.utils:testing adapted model on local testset at model_id: 34
+2020-08-28 08:33:15 - INFO     - testing adapted model on local testset at model_id: 34
+___Test None , Average loss: 2.7011672744750976,  Accuracy: 1399.0/10000 (13.99%)
+INFO:utils.utils:time spent on testing: 168.37712001800537
+2020-08-28 08:36:03 - INFO     - time spent on testing: 168.37712001800537
+ 35%|███████████▏                    | 35/100 [45:23:08<217:08:25, 12026.24s/it]INFO:utils.utils:time spent on local adaptation: 347.7219398021698
+2020-08-28 08:41:51 - INFO     - time spent on local adaptation: 347.7219398021698
+INFO:utils.utils:testing adapted model on local testset at model_id: 35
+2020-08-28 08:41:51 - INFO     - testing adapted model on local testset at model_id: 35
+___Test None , Average loss: 2.387301348876953,  Accuracy: 1277.0/10000 (12.770000000000001%)
+INFO:utils.utils:time spent on testing: 172.2589292526245
+2020-08-28 08:44:43 - INFO     - time spent on testing: 172.2589292526245
+ 36%|███████████▉                     | 36/100 [45:31:48<152:26:07, 8574.50s/it]INFO:utils.utils:time spent on local adaptation: 617.0677652359009
+2020-08-28 08:55:01 - INFO     - time spent on local adaptation: 617.0677652359009
+INFO:utils.utils:testing adapted model on local testset at model_id: 36
+2020-08-28 08:55:01 - INFO     - testing adapted model on local testset at model_id: 36
+___Test None , Average loss: 2.282839126586914,  Accuracy: 1467.0/10000 (14.67%)
+INFO:utils.utils:time spent on testing: 155.8849868774414
+2020-08-28 08:57:37 - INFO     - time spent on testing: 155.8849868774414
+ 37%|████████████▏                    | 37/100 [45:44:42<109:05:56, 6234.23s/it]INFO:utils.utils:time spent on local adaptation: 420.79679894447327
+2020-08-28 09:04:38 - INFO     - time spent on local adaptation: 420.79679894447327
+INFO:utils.utils:testing adapted model on local testset at model_id: 37
+2020-08-28 09:04:38 - INFO     - testing adapted model on local testset at model_id: 37
+^[___Test None , Average loss: 2.284465655517578,  Accuracy: 1773.0/10000 (17.73%)
+INFO:utils.utils:time spent on testing: 155.74292302131653
+2020-08-28 09:07:14 - INFO     - time spent on testing: 155.74292302131653
+ 38%|████████████▉                     | 38/100 [45:54:19<78:08:19, 4537.09s/it]INFO:utils.utils:time spent on local adaptation: 507.42830419540405
+2020-08-28 09:15:42 - INFO     - time spent on local adaptation: 507.42830419540405
+INFO:utils.utils:testing adapted model on local testset at model_id: 38
+2020-08-28 09:15:42 - INFO     - testing adapted model on local testset at model_id: 38
+___Test None , Average loss: 2.1531702621459963,  Accuracy: 1245.0/10000 (12.45%)
+INFO:utils.utils:time spent on testing: 1100.5648038387299
+2020-08-28 09:34:02 - INFO     - time spent on testing: 1100.5648038387299
+ 39%|█████████████▎                    | 39/100 [46:21:07<61:59:27, 3658.49s/it]INFO:utils.utils:time spent on local adaptation: 655.9872982501984
+2020-08-28 09:45:00 - INFO     - time spent on local adaptation: 655.9872982501984
+INFO:utils.utils:testing adapted model on local testset at model_id: 39
+2020-08-28 09:45:00 - INFO     - testing adapted model on local testset at model_id: 39
+___Test None , Average loss: 2.2337190704345704,  Accuracy: 1768.0/10000 (17.68%)
+INFO:utils.utils:time spent on testing: 156.01482391357422
+2020-08-28 09:47:36 - INFO     - time spent on testing: 156.01482391357422
+ 40%|█████████████▌                    | 40/100 [46:34:41<46:44:56, 2804.94s/it]Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/Users/sana/anaconda3/lib/python3.7/threading.py", line 926, in _bootstrap_inner
+    self.run()
+  File "/Users/sana/anaconda3/lib/python3.7/site-packages/tensorboard/summary/writer/event_file_writer.py", line 224, in run
+    self._record_writer.flush()
+  File "/Users/sana/anaconda3/lib/python3.7/site-packages/tensorboard/summary/writer/record_writer.py", line 42, in flush
+    self._writer.flush()
+OSError: [Errno 28] No space left on device
+
+^Z
+[2]+  Stopped                 python3 adapt.py --name image --params utils/adapt_image.yaml
+(base) Sanas-MacBook-Pro:adaptation sana$ python3 adapt.py --name image --params utils/adapt_image.yaml
+1.2.0
+/Users/sana/anaconda3/lib/python3.7/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:541: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint8 = np.dtype([("qint8", np.int8, 1)])
+/Users/sana/anaconda3/lib/python3.7/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:542: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint8 = np.dtype([("quint8", np.uint8, 1)])
+/Users/sana/anaconda3/lib/python3.7/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:543: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint16 = np.dtype([("qint16", np.int16, 1)])
+/Users/sana/anaconda3/lib/python3.7/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:544: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint16 = np.dtype([("quint16", np.uint16, 1)])
+/Users/sana/anaconda3/lib/python3.7/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:545: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint32 = np.dtype([("qint32", np.int32, 1)])
+/Users/sana/anaconda3/lib/python3.7/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:550: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  np_resource = np.dtype([("resource", np.ubyte, 1)])
+WARNING:root:This caffe2 python run does not have GPU support. Will run in CPU only mode.
+adapt.py:230: YAMLLoadWarning: calling yaml.load() without Loader=... is deprecated, as the default Loader is unsafe. Please read https://msg.pyyaml.org/load for full details.
+  params_loaded = yaml.load(f)
+WARNING:utils.utils:Logging things. current path: /Users/sana/Downloads/adaptation/saved_models/model_image_adapt_Aug.28_15.03.53
+2020-08-28 15:03:55 - WARNING  - Logging things. current path: /Users/sana/Downloads/adaptation/saved_models/model_image_adapt_Aug.28_15.03.53
+0.001 | data_type | repo_path | save_name | recreate_dat | batch_size | test_batch_s | lr | momentum | decay | total_rounds | lamb | alpha | temperature | optimizer | multi_gpu | aggregation_ | scratch | only_eval | freeze_base | ewc | kd | number_of_to | adaptation_e | log | tb | random | current_time | tb_name |
+|---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|
+| image | /Users/sana/Downloads/adaptation | image_debug | False | 32 | 100 | 0.001 | 0.9 | 0.0005 | 8 | 5000 | 0.95 | 6 | SGD | False | averaging | False | False | True | False | False | 100 | 50 | True | True | False | Aug.28_15.03.53 | image |
+INFO:utils.utils:Selected adapted models ID: range(0, 100)
+2020-08-28 15:03:55 - INFO     - Selected adapted models ID: range(0, 100)
+  0%|                                                   | 0/100 [00:00<?, ?it/s]^Z
+[3]+  Stopped                 python3 adapt.py --name image --params utils/adapt_image.yaml
+(base) Sanas-MacBook-Pro:adaptation sana$ python3 adapt.py --name image --params utils/adapt_image.yaml
+1.2.0
+/Users/sana/anaconda3/lib/python3.7/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:541: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint8 = np.dtype([("qint8", np.int8, 1)])
+/Users/sana/anaconda3/lib/python3.7/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:542: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint8 = np.dtype([("quint8", np.uint8, 1)])
+/Users/sana/anaconda3/lib/python3.7/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:543: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint16 = np.dtype([("qint16", np.int16, 1)])
+/Users/sana/anaconda3/lib/python3.7/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:544: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint16 = np.dtype([("quint16", np.uint16, 1)])
+/Users/sana/anaconda3/lib/python3.7/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:545: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint32 = np.dtype([("qint32", np.int32, 1)])
+/Users/sana/anaconda3/lib/python3.7/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:550: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  np_resource = np.dtype([("resource", np.ubyte, 1)])
+WARNING:root:This caffe2 python run does not have GPU support. Will run in CPU only mode.
+adapt.py:230: YAMLLoadWarning: calling yaml.load() without Loader=... is deprecated, as the default Loader is unsafe. Please read https://msg.pyyaml.org/load for full details.
+  params_loaded = yaml.load(f)
+WARNING:utils.utils:Logging things. current path: /Users/sana/Downloads/adaptation/saved_models/model_image_adapt_Aug.28_15.07.30
+2020-08-28 15:07:32 - WARNING  - Logging things. current path: /Users/sana/Downloads/adaptation/saved_models/model_image_adapt_Aug.28_15.07.30
+0.001 | data_type | repo_path | save_name | recreate_dat | batch_size | test_batch_s | lr | momentum | decay | total_rounds | lamb | alpha | temperature | optimizer | multi_gpu | aggregation_ | scratch | only_eval | freeze_base | ewc | kd | no_models | number_of_to | adaptation_e | log | tb | random | current_time | tb_name |
+|---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|
+| image | /Users/sana/Downloads/adaptation | image_debug | False | 32 | 100 | 0.001 | 0.9 | 0.0005 | 8 | 5000 | 0.95 | 6 | SGD | False | averaging | False | False | True | False | False | 10 | 100 | 50 | True | True | False | Aug.28_15.07.30 | image |
+INFO:utils.utils:Selected adapted models ID: range(0, 100)
+2020-08-28 15:07:33 - INFO     - Selected adapted models ID: range(0, 100)
+  0%|                                                   | 0/100 [00:00<?, ?it/s]^Z
+[4]+  Stopped                 python3 adapt.py --name image --params utils/adapt_image.yaml
+(base) Sanas-MacBook-Pro:adaptation sana$ 
+FL Log: All Test_Loss during training: 
+[2.0747299346923826, 1.2152102012634278, 0.5504171100616455, 0.269484502696991, 0.4626143756866455, 0.21456506090164185, 0.17093683986663818, 0.11726181802749634, 0.2050047540664673, 0.13682174644470216, 0.1460832854270935, 0.14228095598220825, 0.09860057935714722, 0.08530629920959473, 0.11240544128417969, 0.1291232250213623, 0.11954148669242859, 0.0836057723045349, 0.11567563347816467, 0.08930261929035187, 0.07087216551303864], All Test_Acc during training: [9.02, 49.980000000000004, 71.84, 81.39, 75.3, 83.32000000000001, 84.8, 86.44, 83.21, 85.63, 85.46000000000001, 85.64, 86.98, 87.7, 87.06, 86.45, 86.78, 87.63, 86.94, 87.72999999999999, 88.1].

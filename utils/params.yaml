@@ -1,0 +1,33 @@
+data_type: image
+repo_path: /Users/sana/Downloads/adaptation
+
+
+recreate_dataset: true
+
+batch_size: 32
+test_batch_size: 100
+lr: 0.1
+momentum: 0.9
+decay: 0.0005
+total_rounds: 100
+save_on_rounds: [1,5,10,15,20,25,30,35,40,45,50,55,60,65,70,75,80,85,90,95,100]
+optimizer: SGD
+multi_gpu: false
+
+save_model: true
+
+# parameters for Federated Learning
+aggregation_type: averaging
+### averaging or median
+number_of_total_participants: 100
+no_models: 10
+retrain_no_times: 2
+eta: 1
+
+diff_privacy: false
+s_norm: 15
+sigma: 0.01
+
+log: True
+tb: True
+random: False

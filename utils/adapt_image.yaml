@@ -1,0 +1,45 @@
+data_type: image
+repo_path: /Users/sana/Downloads/adaptation
+save_name: image_debug
+
+recreate_dataset: true
+
+# prepare the federated learning model to be adapted
+# resumed_model: model_image_Nov.09_01.55.54/model_last.pt.tar.best
+###averaging: model_image_Nov.09_01.58.58/model_last.pt.tar.best
+###averaging_diff: model_image_Nov.09_01.59.42/model_last.pt.tar.best
+###median: model_image_Nov.09_01.55.54/model_last.pt.tar.best
+
+batch_size: 32
+test_batch_size: 100
+lr: 0.001
+momentum: 0.9
+decay: 0.0005
+total_rounds: 8
+lamb: 5000
+alpha: 0.95
+temperature: 6
+optimizer: SGD
+multi_gpu: false
+
+aggregation_type: averaging
+
+scratch: false
+### scratch is an option to train local models from scratch for each participant
+only_eval: false
+### only_eval is an option to only evaluate the resumed model locally at each participant's local testset
+freeze_base: true
+ewc: false
+kd: false
+#resumed_fisher: data/cifar_averaging_fisher.pt
+## cifar_averaging_fisher, cifar_averaging_diff_fisher, cifar_median_fisher
+
+no_models: 10 #number of models in one round
+
+# parameters for Federated Learning
+number_of_total_participants: 100
+adaptation_epoch: 50
+
+log: True
+tb: True
+random: False
